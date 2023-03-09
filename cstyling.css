@@ -1,0 +1,115 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+.anotherpage{
+    margin:80px auto;
+    color: white;
+    width:80%;
+}
+.contactbox{
+    background: #121212;
+    display: flex;
+}
+.contactleft{
+    /*background-image: url(image/2swan.png);
+    background-size: cover; */
+    flex-basis: 60%;
+    padding:40px 60px;
+    border-bottom: 2px solid #66FCF1;
+}
+.contactright{
+    background-image: url(image/3swan.jpg);
+    background-size: cover;
+    flex-basis: 40%;
+    padding:40px;
+    border-bottom: 2px solid #121212;
+   /* background: rgb(53, 50, 50);*/
+}
+h1{
+    margin-bottom: 40px;
+    margin-left: 10px;
+    color: #66FCF1;
+}
+p{
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.inputrow{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.inpitrow .inputgroup{
+    flex-basis: 45%;
+}
+input{
+    width:100%;
+    border: none;
+    border-bottom: 2px solid #48c0b8;
+    outline: none;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+textarea{
+    width: 100%;
+    border: 1px solid white;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+    border-bottom: 2px solid #66FCF1;
+}
+label{
+    margin-bottom: 5px;
+    display: block;
+    color: whitesmoke;
+}
+button{
+    background: #66FCF1;
+    width: 100px;
+    border: none;
+    outline: none;
+    color: black;
+    height: 35px;
+    border-radius: 30px;
+    margin-top: 20px;
+    box-shadow: 0px 5px 15px 0px #274b48;
+    transition: 0.2s;
+}
+button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.contactleft h3{
+    color: white;
+    font-weight: 600;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+.contactright h3{
+    color: white;
+    font-weight: 600;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+tr td:first-child{
+    padding-right: 20px;
+}
+tr td{
+    padding-top: 20px;
+}
+.back{
+    margin-top: 20px;
+}
+.back a{
+    color: white;
+    margin-left: 20px;
+}

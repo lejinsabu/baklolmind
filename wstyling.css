@@ -1,0 +1,107 @@
+/*Let's make sure that the dimensions of any box includes its border and padding, this gives us an easy way of sizing our elements*/
+* {
+    background-color: black;
+}
+
+/*convert the container to a flexbox*/
+
+
+.header {
+    color: white;
+    height: 200px;
+    width: 1500px;
+    min-width: 1000px;
+    margin: 0 auto;
+    flex-shrink: 0;
+   /*border:1px solid white; */
+}
+
+.header hr{
+    width:70px;
+    height:2px;
+    display: block;
+    float: left;
+    margin-right: 30px;
+    margin-top: 28px;
+    border-color: #66FCF1;
+   /* background: #66FCF1; */
+}
+
+.header h3{
+    font-size: 50px;
+    margin-left: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 100px;
+    animation: reveal 1s ease-in;
+}
+
+.header h4{
+    font-size: 16px;
+    margin-left: 0px;
+    margin-top: 30px;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#66FCF1;
+    margin-bottom: 60px;
+    letter-spacing: 0.6px;
+}
+.header a{
+    text-decoration: none;
+    color: white;
+}
+
+.heading{
+    float: left;
+}
+
+.home{
+    border: 2px solid #66FCF1;
+    height: 40px;
+    width: 200px;
+    padding-top: 25px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    float:right;
+    margin-top: 130px;
+    margin-right: 80px;
+}
+
+.home:hover{
+    cursor: pointer;
+}
+
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+/*
+.column:nth-child(1){
+    background-color: skyblue;
+}
+.column:nth-child(2){
+    background-color: palevioletred;
+}
+.column:nth-child(3){
+    background-color: greenyellow;
+}
+.column:nth-child(4){
+    background-color: lightcoral;
+}
+*/
+
+.column{
+    flex: 1;
+    min-width: 300px;
+    padding: 1px;
+}
+
+img{
+    width: 100%;
+}
